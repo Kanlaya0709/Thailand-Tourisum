@@ -14,5 +14,13 @@
     <fragment
         android:id="@+id/provinceFragment"
         android:name="com.example.thailandtourisum.provinceFragment"
-        android:label="provinceFragment" />
+        android:label="provinceFragment" >
+        <action
+            android:id="@+id/action_provinceFragment_to_tourisumFragment"
+            app:destination="@id/tourisumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tourisumFragment"
+        android:name="com.example.thailandtourisum.tourisumFragment"
+        android:label="tourisumFragment" />
 </navigation>
