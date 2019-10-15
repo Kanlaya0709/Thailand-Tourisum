@@ -7,9 +7,8 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingComponent
 import androidx.databinding.DataBindingUtil
-import com.example.thailandtourisum.databinding.FragmenttZoneBinding
+import com.example.thailandtourisum.databinding.FragmentZoneBinding
 
 /**
  * A simple [Fragment] subclass.
@@ -25,6 +24,4 @@ class zoneFragment : Fragment() {
         return  binding.root
 
     }
-
-
 }
