@@ -6,8 +6,16 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ProvinceFragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="จังหวัด...."
+            tools:layout_editor_absoluteX="50dp"
+            tools:layout_editor_absoluteY="178dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -19,6 +27,8 @@
             android:textSize="30sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 

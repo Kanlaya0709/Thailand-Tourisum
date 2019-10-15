@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.navigation.findNavController
 import com.example.thailandtourisum.databinding.FragmentZoneBinding
 
 /**
@@ -21,6 +22,23 @@ class zoneFragment : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentZoneBinding>(inflater
             ,R.layout.fragment_zone,container,false)
 
+        binding.northernButton.setOnClickListener{ view ->
+            view.findNavController().navigate(R.id.action_zoneFragment_to_provinceFragment)}
+
+        binding.northeasternButton.setOnClickListener{ view ->
+                view.findNavController().navigate(R.id.action_zoneFragment_to_provinceFragment)}
+
+        binding.southernButton.setOnClickListener{ view ->
+            view.findNavController().navigate(R.id.action_zoneFragment_to_provinceFragment)}
+
+        binding.centralButton.setOnClickListener{ view ->
+            view.findNavController().navigate(R.id.action_zoneFragment_to_provinceFragment)}
+
+        binding.easterButton.setOnClickListener{ view ->
+            view.findNavController().navigate(R.id.action_zoneFragment_to_provinceFragment)}
+
+
+        
         return  binding.root
 
     }

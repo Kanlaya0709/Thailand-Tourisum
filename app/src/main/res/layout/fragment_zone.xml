@@ -11,7 +11,7 @@
 
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/northern_button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="50dp"
@@ -19,52 +19,52 @@
             android:layout_marginRight="50dp"
             android:layout_marginBottom="20dp"
             android:text="@string/northern_button"
-            app:layout_constraintBottom_toTopOf="@+id/button2"
+            app:layout_constraintBottom_toTopOf="@+id/northeastern_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/northeastern_button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:layout_marginBottom="20dp"
             android:text="@string/northeastern_button"
-            app:layout_constraintBottom_toTopOf="@+id/button3"
+            app:layout_constraintBottom_toTopOf="@+id/central_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button" />
+            app:layout_constraintTop_toBottomOf="@+id/northern_button" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/central_button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:layout_marginBottom="20dp"
             android:text="@string/central_button"
-            app:layout_constraintBottom_toTopOf="@+id/button4"
+            app:layout_constraintBottom_toTopOf="@+id/easter_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button2" />
+            app:layout_constraintTop_toBottomOf="@+id/northeastern_button" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/easter_button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:layout_marginBottom="20dp"
             android:text="@string/easter_button"
-            app:layout_constraintBottom_toTopOf="@+id/button5"
+            app:layout_constraintBottom_toTopOf="@+id/southern_button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button3" />
+            app:layout_constraintTop_toBottomOf="@+id/central_button" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/southern_button"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginLeft="50dp"
@@ -74,7 +74,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button4" />
+            app:layout_constraintTop_toBottomOf="@+id/easter_button" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
