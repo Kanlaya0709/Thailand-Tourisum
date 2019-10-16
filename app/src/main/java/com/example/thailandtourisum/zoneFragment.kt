@@ -19,6 +19,7 @@ class zoneFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?): View? {
+
         val binding = DataBindingUtil.inflate<FragmentZoneBinding>(inflater
             ,R.layout.fragment_zone,container,false)
 
